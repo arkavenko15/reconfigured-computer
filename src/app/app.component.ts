@@ -51,7 +51,6 @@ export class AppComponent {
     this.intervalXp = interval;
     this.loadData = true;
     this.divMan = 0;
-    this.MaxError = 0;
     this.Wmin = Math.pow(2, -(this.mantisXm));
     console.log("Вага молодшого розряду:", this.Wmin);
     this.intervalXp = Math.pow(2, this.intervalXp);
